@@ -2,7 +2,7 @@ import React from "react";
 import { Container, FullBackground } from "../style";
 import { Header, List } from "./style";
 
-export default function Lesson() {
+export default function Head() {
    return (
       <FullBackground height="64px" bg="#0D263B">
          <Container>

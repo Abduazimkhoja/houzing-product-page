@@ -12,5 +12,6 @@ export const FullBackground = styled.div`
 
 export const Container = styled.div`
    width: 1180px;
+   height: inherit;
    margin: 0 auto;
 `;

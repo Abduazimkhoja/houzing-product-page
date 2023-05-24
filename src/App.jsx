@@ -1,6 +1,13 @@
 import React from "react";
-import Lesson from "./components/Header";
+import Head from "./components/Header";
+import Foot from "./components/Footer";
 
 export default function App() {
-   return <Lesson />;
+   return (
+      <>
+         <Head />
+         body
+         <Foot />
+      </>
+   );
 }

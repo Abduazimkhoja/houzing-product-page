@@ -1,6 +1,8 @@
 import styled, { css, keyframes } from "styled-components";
 
 export const Header = styled.header`
+   height: inherit;
+
    display: flex;
    align-items: center;
    justify-content: space-between;
