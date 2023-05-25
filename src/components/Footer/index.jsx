@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, FullBackground } from "../style";
 import { Footer, Social } from "./style";
-import { FooterList } from "../../mock/FooterList";
+import { FooterList } from "../../utils/FooterList";
 
 export default function Foot() {
    return (
@@ -9,27 +9,27 @@ export default function Foot() {
          <Container>
             <Footer>
                <Footer.head>
-                  {FooterList.map(({ title, list, icon, social }) => {
+                  {FooterList.map(({ id, title, list, icon, social }) => {
                      return (
-                        <Footer.list>
+                        <Footer.list key={id}>
                            <li>
                               <h5 className="footer__title">{title}</h5>
                            </li>
-                           {list.map((item, index) => {
+                           {list.map(({ id, link }, index) => {
                               return (
-                                 <li>
+                                 <li key={id}>
                                     <a href="#" className="footer__link">
                                        {icon && <i className={icon[index]}></i>}
-                                       {item}
+                                       {link}
                                     </a>
                                  </li>
                               );
                            })}
                            {social && (
                               <Social>
-                                 {social.map((brand) => {
+                                 {social.map(({ id, brand }) => {
                                     return (
-                                       <li>
+                                       <li key={id}>
                                           <a
                                              target="_blank"
                                              href={`https://www.${brand}.com`}
@@ -46,7 +46,7 @@ export default function Foot() {
                      );
                   })}
                </Footer.head>
-               
+
                <Footer.bottom>
                   <i className="icon-logo"></i>
                   <h5 className="productBy">
