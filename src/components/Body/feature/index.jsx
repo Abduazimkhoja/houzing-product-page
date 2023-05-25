@@ -11,7 +11,7 @@ export default function Feature() {
             {featuresList.map(({ id, icon, text }) => {
                return (
                   <Stats key={id}>
-                     <CircleIcon className={`icon-${icon}`}></CircleIcon>
+                     <CircleIcon bg = "#0061df96" className={`icon-${icon}`}></CircleIcon>
                      <p className="stats__info">{text}</p>
                   </Stats>
                );

@@ -5,6 +5,7 @@ import Accommodation from "./accommodation";
 import Details from "./details";
 import Application from "./application";
 import Location from "./location";
+import Reviews from "./reviews";
 
 export default function Body() {
    return (
@@ -12,13 +13,15 @@ export default function Body() {
          {/* <Accommodation /> */}
          <ContainerMini>
             <Line />
-            <Location/>
+            <Location />
             <Line />
             <Details />
             <Line />
             <Feature />
             <Line />
             <Application />
+            <Line />
+            <Reviews />
             <Line />
          </ContainerMini>
       </>

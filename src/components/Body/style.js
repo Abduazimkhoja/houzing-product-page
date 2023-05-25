@@ -20,8 +20,10 @@ export const SectionTitle = styled.h5`
 `;
 
 export const Stats = styled.div`
+   ${(props) => props.mw && `max-width: ${props.mw};`}
    display: flex;
    align-items: center;
+   ${(props) => props.sb && "justify-content: space-between;"}
    gap: 8px;
 
    .stats__title {
@@ -42,8 +44,6 @@ export const Stats = styled.div`
 `;
 
 export const Grid = styled.div`
-   ${(props) => console.log(props.column)}
-
    display: grid;
    grid-template-columns: repeat(${(props) => props.column}, 1fr);
    grid-template-rows: repeat(${(props) => props.row}, 1fr);
