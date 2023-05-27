@@ -1,6 +1,5 @@
 import React from "react";
-import { SectionTitle } from "../style";
-import { ApplicationRow, Input } from "./style";
+import { ApplicationRow, Input, SectionTitle } from "../style";
 
 export default function Application() {
    return (

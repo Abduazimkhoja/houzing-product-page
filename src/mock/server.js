@@ -32,6 +32,53 @@ export const houseInfo = [
       beds: 4,
       image: {
          url: "https://petrostroybaza.ru/wp-content/uploads/2020/05/ddivsr7r4i8.jpg",
+         internal: [
+            {
+               id: 1,
+               link: "https://img.freepik.com/premium-photo/illustration-3d-rendering-large-luxury-modern-bright-interiors-living-room-mockup-computer-digitally-generated-image_653967-14009.jpg",
+            },
+            {
+               id: 2,
+               link: "https://img.freepik.com/free-photo/empty-space-prepared-for-aa-meeting-and-group-therapy-with-chairs-in-circle-nobody-in-room-used-for-psychotherapy-session-and-communication-against-acohol-addiction-problems_482257-27421.jpg?t=st=1685104435~exp=1685105035~hmac=1741d0958d80394fb9c40af214677517a8b5a713098d30f192a5e0494cdd3593",
+            },
+            {
+               id: 3,
+               link: "https://img.freepik.com/premium-photo/natural-mountain-rock-wall-in-modern-living-room-interior-3d-render_269031-287.jpg",
+            },
+            {
+               id: 4,
+               link: "https://img.freepik.com/premium-photo/industrial-style-of-dark-living-room-interior-3d-render_269031-384.jpg",
+            },
+            {
+               id: 5,
+               link: "https://img.freepik.com/free-photo/dining-table-background-for-zoom-calls_23-2149684446.jpg?t=st=1685104435~exp=1685105035~hmac=d6cd269932b1630a61365ace47e2fc81ec653b7c8689f3b275944a1bafc14371",
+            },
+            {
+               id: 6,
+               link: "https://img.freepik.com/free-photo/dining-area-background-for-zoom-calls_23-2149684445.jpg",
+            },
+            {
+               id: 7,
+               link: "https://img.freepik.com/premium-photo/stylish-and-cozy-interior-of-dining-room-with-design-craft-wooden-table-chairs-plants-velvet-sofa-poster-map-and-elegant-accessories-in-modern-home-decor-template_431307-5002.jpg",
+            },
+            {
+               id: 7,
+               link: "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg",
+            },
+            {
+               id: 7,
+               link: "https://cdn.pixabay.com/photo/2017/03/28/12/17/chairs-2181994_1280.jpg",
+            },
+            {
+               id: 7,
+               link: "https://img.freepik.com/premium-photo/the-stylish-composition-of-cozy-office-interior-with-metal-chair-wooden-table-plants-poster-and-personal-accessories-home-decor-template_431307-9054.jpg",
+            },
+            {
+               id: 7,
+               link: "https://img.freepik.com/premium-photo/the-stylish-living-room-interior-with-grey-fireplace-white-armchair-concrete-wall-and-dried-flowers-grey-floor-with-beige-carpet-home-decor-template_431307-9031.jpg",
+            },
+         ],
+
          alt: "Современный 4-спальный дом с большим гаражом",
       },
       countPhoto: 14,
@@ -316,3 +363,13 @@ export const houseInfo = [
          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, fuga sint officiis nisi mollitia necessitatibus beatae architecto impedit a doloribus est, totam sequi ut eius vel consequatur laboriosam? Accusantium vel recusandae placeat nisi temporibus doloremque magni ratione quisquam consectetur quaerat ipsa, deserunt eius fugit dolorum explicabo quis omnis, rem aliquam.",
    },
 ];
+
+// internal: [
+//    { id: 1, link: "", alt: "" },
+//    { id: 2, link: "", alt: "" },
+//    { id: 3, link: "", alt: "" },
+//    { id: 4, link: "", alt: "" },
+//    { id: 5, link: "", alt: "" },
+//    { id: 6, link: "", alt: "" },
+//    { id: 7, link: "", alt: "" },
+// ]

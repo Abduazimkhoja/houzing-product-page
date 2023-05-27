@@ -11,9 +11,15 @@ export const FullBackground = styled.div`
 `;
 
 export const Container = styled.div`
-   width: 1180px;
+   max-width: 1220px;
+   width: 100%;
+   padding: 0 20px;
    height: inherit;
    margin: 0 auto;
+`;
+
+export const Section = styled.section`
+   margin: ${({ margin }) => margin} 0;
 `;
 
 export const CircleIcon = styled.i`
@@ -50,4 +56,34 @@ export const Progress = styled.progress`
          border-radius: 5px;
       }
    }
+`;
+
+export const Title = styled.h3`
+   margin-bottom: 8px;
+
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 36px;
+
+   text-align: center;
+   letter-spacing: -0.02em;
+
+   color: #0d263b;
+`;
+
+export const SubTitle = styled.h5`
+   margin-bottom: 32px;
+
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+   text-align: center;
+
+   color: #696969;
+`;
+
+export const Has = styled.div`
+   display: flex;
+   
 `;
