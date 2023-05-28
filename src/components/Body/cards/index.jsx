@@ -17,7 +17,9 @@ export default function Cards() {
             <Slider.blockRow>
                <HomeCard>
                   <img src="" alt="" />
-                  
+                  <div className="card__info">
+                     
+                  </div>
                </HomeCard>
             </Slider.blockRow>
             <Slider.button direction="right">
